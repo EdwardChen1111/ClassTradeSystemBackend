@@ -1,0 +1,7 @@
+{
+    "restartable": "rs",
+    "verbose": true,
+    "ignore": ["./data"],
+    "watch": "./server.js",
+    "ext": "js,json"
+}
