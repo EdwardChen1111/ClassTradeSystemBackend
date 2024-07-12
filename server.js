@@ -24,8 +24,8 @@ let allData = {};
 let userData = {};
 
 /*const addfile = require("./addfile.js");
-addfile(TClass);*/
-/*let aaaa = {};
+addfile(TClass);
+let aaaa = {};
 for (i of TClass) {
     aaaa[i] = {
         cash: {
@@ -49,6 +49,7 @@ for (i of TClass) {
 fs.writeFile(`./data/userinfo.json`, JSON.stringify(aaaa), function (err) {
     if (err) return console.log(err);
 });*/
+///初始化資料結構
 
 fs.readFile(`./data/userinfo.json`, function (err, data) {
     if (err) return console.log(err);
